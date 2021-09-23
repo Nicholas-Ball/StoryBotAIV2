@@ -15,7 +15,7 @@
 #include <cmath>
 #include <thread>
 
-const int CREATURE_COUNT = 35;
+const int CREATURE_COUNT = 36;
 const int GENERATIONS = 25;
 const double SURVIVAL_RATE = 0.5;
 
@@ -503,7 +503,7 @@ int main() {
 
   std::vector<int> sentence;
   //have bot print out 10 words
-  for(int i = 0; i != 10; i++)
+  for(int i = 0; i != 100; i++)
   {
     out = bot.Run(out);
     out *= 1000.0;
